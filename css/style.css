@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: #fff;
+}
+
+/* common css End */
+header{
+    background-color: #f6f9f9;
+}
+.navbar-brand img{
+    width: 100px;
+}
+.bunner-img{
+    background: url(../images/Bunner-STRICT.png);
+    background-position: center bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0 200px;
+}
+.bunner-heading{
+    font-size: 120px;
+    font-weight: 700;
+
+}
+
+
+
+
+
+/* 
+    Mobile Responsive CSS less than (max-width:576 px)
+*/
+
+@media only screen and (max-width:576px) {
+    
+}
